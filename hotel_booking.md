@@ -16,6 +16,7 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 2. Guests without children book the most weekend nights. Is this true?
 
 
+# Analyzing the Data
 
 
 
