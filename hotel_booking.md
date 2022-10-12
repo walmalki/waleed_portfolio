@@ -11,7 +11,7 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 1. Do people with children have to book in advance?
 2. What group of guests are booking the most weekend nights in order to target that group in a new marketing campaign?
 
-> ** ## Hypothesis**
+> ** ## Hypothesis **
 1. Yes, people with children tend to book in advance.
 2. Guests without children book the most weekend nights. Is this true?
 
