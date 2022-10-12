@@ -23,8 +23,9 @@ We decided to use R-Studio to analyze our data, as R-Studio is a free software e
 First of all, we will install the packages which we need for our analyses, then we import our data.
 
 ![](images/image-1.png)
-![](images/image-2.png)
-![](images/image-3.png)
+
+![](images/image-2.png) ![](images/image-3.png)
+
 ![](images/image-4.png)
 
 
