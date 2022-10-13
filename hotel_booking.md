@@ -18,33 +18,35 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 > ## Analyzing the Data
 
-We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
+### We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
 
-First of all, we will install the packages which we need for our analyses, then we import our data.
+### First of all, we will install the packages which we need for our analyses, then we import our data.
 
 > #### install packages
 
-`install.packages("tidyverse")
-install.packages("ggplot2")`
+`install.packages("tidyverse")`
+`install.packages("ggplot2")`
 
+> #### load packages
 
-![](images/image-1.png)
+`library(tidyverse)`
+`library(ggplot2)`
 
-We look at a sample of our data.
+### We look at a sample of our data.
 
 ![](images/image-2.png) 
 ![](images/image-3.png)
 
-We look at column names.
+### We look at column names.
 
 ![](images/image-4.png)
 
 
 > ### Answering first question
 
-So to answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
+### So to answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
 
-The two columns that we should plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
+### Using plot The two columns that we should plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
 
 `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
 
