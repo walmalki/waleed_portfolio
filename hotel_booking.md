@@ -22,13 +22,21 @@ We decided to use R-Studio to analyze our data, as R-Studio is a free software e
 
 First of all, we will install the packages which we need for our analyses, then we import our data.
 
+> #### install packages
+
+`install.packages("tidyverse")
+install.packages("ggplot2")`
+
+
 ![](images/image-1.png)
 
 We look at a sample of our data.
+
 ![](images/image-2.png) 
 ![](images/image-3.png)
 
 We look at column names.
+
 ![](images/image-4.png)
 
 
