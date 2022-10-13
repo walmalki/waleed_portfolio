@@ -22,20 +22,21 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 ### First of all, we will install the packages which we need for our analyses, then we import our data.
 
-> #### install packages
+> #### Install packages
 
 `install.packages("tidyverse")`
 `install.packages("ggplot2")`
 
-> #### load packages
+> #### Load packages
 
 `library(tidyverse)`
 `library(ggplot2)`
 
+
 ### We look at a sample of our data.
 
-![](images/image-2.png) 
-![](images/image-3.png)
+![](images/image-2.png)
+
 
 ### We look at column names.
 
