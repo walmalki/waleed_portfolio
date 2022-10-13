@@ -5,7 +5,7 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 > ### We downloaded the dataset from "Kaggle.com": [Click here](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
 
-### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data.
+#### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data.
 
 > ## Questions to answer
 1. Do people with children have to book in advance?
@@ -18,9 +18,9 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 > ## Analyzing the Data
 
-### We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
+#### We decided to use R-Studio to analyze our data, as R-Studio is a free software environment plus is friendly to use.
 
-### First of all, we will install the packages which we need for our analyses, then we import our data.
+#### First of all, we will install the packages which we need for our analyses, then we import our data.
 
 > #### Install packages
 
@@ -33,27 +33,30 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 `library(ggplot2)`
 
 
-### We look at a sample of our data.
+#### We look at a sample of our data.
 
 ![](images/image-2.png)
 
 
-### We look at column names.
+#### We look at column names.
 
 ![](images/image-4.png)
 
 
-
 > ### Answering question one
 
-### So to answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
+#### So to answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
 
-### Using plot The two columns that we should plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
+#### Using plot The two columns that we should plot to find the answer to this question are **lead_time** as the x-axis and **children** as the y-axis.
 
 `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
 
 ![](images/image-5.png)
 
 
-### On the x-axis, the plot shows how far in advance a booking is made, with the bookings furthest to the right happening the most in advance. On the y-axis it shows how many children there are in a party. The plot reveals that our hypothesis is incorrect, many of the advanced bookings are being made by people with 0 children.
+#### On the x-axis, the plot shows how far in advance a booking is made, with the bookings furthest to the right happening the most in advance. On the y-axis it shows how many children there are in a party. So the plot reveals that our hypothesis is incorrect, many of the advanced bookings are being made by people with 0 children.
 
+
+> ### Answering question two
+
+#### 
