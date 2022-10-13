@@ -43,7 +43,8 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 ![](images/image-4.png)
 
 
-> ### Answering first question
+
+> ### Answering question one
 
 ### So to answer the first question which is **Do people with children have to book in advance**, we will create a visualization to see how true that statement is or isn't.
 
@@ -51,4 +52,8 @@ This data describes a dataset with hotel demand data, which contains 31 variable
 
 `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
 
+![](images/image-5.png)
+
+
+### On the x-axis, the plot shows how far in advance a booking is made, with the bookings furthest to the right happening the most in advance. On the y-axis it shows how many children there are in a party. The plot reveals that our hypothesis is incorrect, many of the advanced bookings are being made by people with 0 children.
 
