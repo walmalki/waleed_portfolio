@@ -1,1 +1,1 @@
-# waleed_portfolio-hotel_booking
+# waleed_portfolio-hotel_bookings
