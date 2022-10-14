@@ -85,7 +85,8 @@ On the x-axis, the plot shows that what group of guests are booking the most wee
 
 1. Do people with children have to book in advance?
 
-In a sense no, but people with zero children are the most bookings in advance, the reason might be because people with children find booking in a hotel costly and they can't afford it, or might be they are too busy or have limited time to make up their mind and book a hotel in advance. Despite that people without children have more time than people with children, also it does not cost them more money.
+In a sense no, but people with zero children are the most bookings in advance, the reason might be that people with children find a booking in a hotel costly and they can't afford it, or might be they are too busy or have limited time to make up their mind and book a hotel in advance. Despite that people without children have more time than people with children, also it does not cost them more money.
 
 2. What group of guests are booking the most weekend nights?
-We sound out that guests without children are who making bookings most weekend nights, the reason for that can be the same as booking in advance for people with no children, it does not cost them more money to book at weekend nights.
+
+We found out that guests without children are the ones who make bookings most weekend nights, the reason for that can be the same as booking in advance for people with no children, it does not cost them more money to book on weekend nights.
