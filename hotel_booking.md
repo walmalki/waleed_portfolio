@@ -36,11 +36,11 @@
 >
 > #### We look at a sample of our data.
 >
-> ![](images/image-2.png)
+> <img src="images/image-2.png" alt="image-2" width="900"/>
 >
 > #### We look at column names.
 >
-> ![](images/image-4.png)
+> <img src="images/image-4.png" alt="image-4" width="900"/>
 
 > ### Answering question one
 >
