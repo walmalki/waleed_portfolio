@@ -34,9 +34,11 @@
 >
 > `hotel_bookings <- read.csv("hotel_bookings.csv")`
 >
+>
 > #### We look at a sample of our data.
 >
 > <img src="images/image-2.png" alt="image-2" width="900"/>
+>
 >
 > #### We look at column names.
 >
@@ -72,7 +74,6 @@
 >
 >
 > On the x-axis, the plot shows that what group of guests are booking the most weekend nights, with the stay in weekend nights furthest to the right happening the most booking weekend nights. the y-axis shows how many children there are in a party. So, the plot reveals that our hypothesis is **correct**, guests without children book most weekend nights.
-
 
 
 > ### Final results
