@@ -37,6 +37,7 @@
 > #### We look at a sample of our data.
 >
 > ![](images/image-2.png)
+> <img src="images/image-2.png" alt="image-2" width="200"/>
 >
 > #### We look at column names.
 >
