@@ -55,7 +55,7 @@
 > `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=lead_time, y=children))`
 >
 >
-> ![](images/image-5.png)
+> <img src="images/image-5.png" alt="image-5" width="900"/>
 >
 >
 > On the x-axis, the plot shows how far in advance a booking is made, with the bookings furthest to the right happening the most in advance. On the y-axis it shows how many children there are in a party. So, the plot reveals that our hypothesis is **incorrect**, many of the advanced bookings are being made by people with 0 children.
@@ -68,7 +68,7 @@
 > `ggplot(data = hotel_bookings) + geom_point(mapping = aes(x=stays_in_weekend_nights, y=children))`
 >
 >
-> ![](images/image-6.png)
+> <img src="images/image-6.png" alt="image-6" width="900"/>
 >
 >
 > On the x-axis, the plot shows that what group of guests are booking the most weekend nights, with the stay in weekend nights furthest to the right happening the most booking weekend nights. the y-axis shows how many children there are in a party. So, the plot reveals that our hypothesis is **correct**, guests without children book most weekend nights.
