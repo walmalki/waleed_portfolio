@@ -38,8 +38,6 @@
 >
 > ![](images/image-2.png)
 >
-> <img src="images/image-2.png" alt="image-2" width="900"/>
->
 > #### We look at column names.
 >
 > ![](images/image-4.png)
