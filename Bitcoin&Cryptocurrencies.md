@@ -9,4 +9,4 @@
 
 > #### We downloaded the dataset from "coinmarketcap.com": [Click here](https://coinmarketcap.com/)
 >
-> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/hotel_bookings_exploratory/#overview-dataset_overview)
+> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/bitcoin_and_cryptocurrencies/)
