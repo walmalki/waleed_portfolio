@@ -35,7 +35,7 @@
 >
 > <img src="images/pic-02.png" alt="pic-02" width="300"/>
 >
-> ### The count for id and market_cap_usd differ above? It is because some cryptocurrencies have no known market capitalization, this is represented by NaN in the data, and NaNs are not counted. These cryptocurrencies are of little interest to us in this analysis, so they are safe to remove.
+> #### The count for id and market_cap_usd differ above? It is because some cryptocurrencies have no known market capitalization, this is represented by NaN in the data, and NaNs are not counted. These cryptocurrencies are of little interest to us in this analysis, so they are safe to remove.
 >
 > #### Filtering out rows without a market capitalization
 >
