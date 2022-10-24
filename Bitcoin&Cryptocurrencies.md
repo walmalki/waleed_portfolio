@@ -5,8 +5,44 @@
 >
 ><img src="images/pic-01.png" alt="image-2" width="900"/>
 >
->That said, let's get to business. We tried to get an up-to-date dataset, but unfortunately, we only found a dataset up to the end of 2017, otherwise, we need to pay for the up-to-date dataset. We will start with a CSV we downloaded on the internet named coinmarketcap_06012018.csv.
+>That said, let's get to business. We tried to get an up-to-date dataset, but unfortunately, we only found a dataset up to the end of 2017, otherwise, we need to pay for the up-to-date dataset. We will start with a CSV we downloaded on the internet named coinmarketcap_06122017.csv.
 
-> #### We downloaded the dataset from "coinmarketcap.com": [Click here](https://coinmarketcap.com/)
+> #### We downloaded the dataset from "kaggle.com": [Click here](https://www.kaggle.com/datasets/kingabzpro/crypto)
 >
 > #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/bitcoin_and_cryptocurrencies/)
+
+> ## Data Summary
+>
+> #### Importing pandas
+>
+> import pandas as pd
+>
+> #### Importing matplotlib
+>
+> `import matplotlib.pyplot as plt`
+>
+> #### Reading datasets/coinmarketcap_06122017.csv into pandas
+>
+> `dec6 = pd.read_csv('datasets/coinmarketcap_06122017.csv')`
+>
+> #### Selecting the 'id' and the 'market_cap_usd' columns
+>
+> `market_cap_raw = dec6[['id', 'market_cap_usd']]`
+>
+> #### Counting the number of values
+>
+> `print(market_cap_raw.count())`
+>
+> <img src="images/pic-02.png" alt="pic-02" width="300"/>
+>
+> ### The count for id and market_cap_usd differ above? It is because some cryptocurrencies have no known market capitalization, this is represented by NaN in the data, and NaNs are not counted. These cryptocurrencies are of little interest to us in this analysis, so they are safe to remove.
+>
+> #### Filtering out rows without a market capitalization
+>
+> `cap = market_cap_raw.query('market_cap_usd > 0')`
+>
+> #### Counting the number of values again
+>
+> `print(cap.count())`
+>
+> <img src="images/pic-03.png" alt="pic-03" width="300"/>
