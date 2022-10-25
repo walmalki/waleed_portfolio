@@ -46,12 +46,13 @@
 > `print(cap.count())`
 >
 > <img src="images/pic-03.png" alt="pic-03" width="300"/>
->
->
+
+
 > ## Questions
 >
 > 1. What cryptocurreny is dominating in the market captalization?
 >  
+
 
 > ## Answering the questions
 >
