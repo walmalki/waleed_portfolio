@@ -46,3 +46,54 @@
 > `print(cap.count())`
 >
 > <img src="images/pic-03.png" alt="pic-03" width="300"/>
+>
+>
+> ## Questions
+>
+> 1. What cryptocurreny is dominating in the market captalization?
+>  
+
+> ## Answering the questions
+>
+> 1. To answer the question **What cryptocurreny is dominating in the market captalization?**, we will plot the market capitalization for the top 10 coins as a barplot to better visualize this.
+>
+> #### Declaring these now for later use in the plots
+>
+> `TOP_CAP_TITLE = 'Top 10 market capitalization'`
+> `TOP_CAP_YLABEL = '% of total cap'`
+>
+> #### Selecting the first 10 rows and setting the index
+>
+> `cap10 = cap.head(10).set_index(cap.id[:10])`
+>
+> #### Calculating market_cap_perc
+>
+> `cap10 = cap10.assign(market_cap_perc = lambda x: (x.market_cap_usd / cap.market_cap_usd.sum()) * 100)`
+>
+> #### Plotting the barplot with the title defined above
+>
+> `ax = cap10.plot.bar(x='id', y='market_cap_perc', title=TOP_CAP_TITLE)`
+>
+> #### Annotating the y axis with the label defined above
+>
+> `ax.set_ylabel(TOP_CAP_YLABEL)`
+> 
+> <img src="images/pic-04.png" alt="pic-04" width="600"/>
+>
+> The plot above is informative enough. Bitcoin is too big, and the other coins are hard to distinguish because of this. Instead of the percentage, We will use a log scale of the "raw" capitalization. Plus, we will use color to group similar coins and make the plot more informative.
+>
+> #### Colors for the bar plot
+>
+> `COLORS = ['orange', 'green', 'orange', 'cyan', 'cyan', 'blue', 'silver', 'orange', 'red', 'green']`
+>
+> #### Plotting market_cap_usd as before but adding the colors and scaling the y-axis
+>
+> `ax = cap10.plot.bar(x='id', y='market_cap_usd', logy=True, color=COLORS, title=TOP_CAP_TITLE)`
+>
+> #### Annotating the y axis with 'USD'
+>
+> `ax.set_ylabel('USD')`
+>
+> #### Removing the xlabel as it is not very informative
+>
+> `ax.set_xlabel('')`
