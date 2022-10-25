@@ -97,3 +97,5 @@
 > #### Removing the xlabel as it is not very informative
 >
 > `ax.set_xlabel('')`
+>
+> <img src="images/pic-05.png" alt="pic-05" width="600"/>
