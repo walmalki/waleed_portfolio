@@ -63,6 +63,7 @@
 > #### Declaring these now for later use in the plots
 >
 > `TOP_CAP_TITLE = 'Top 10 market capitalization'`
+>
 > `TOP_CAP_YLABEL = '% of total cap'`
 >
 > #### Selecting the first 10 rows and setting the index
@@ -193,6 +194,6 @@
 
 > ### Final result
 >
-> 1. What cryptocurrency is dominating in the market captalization?
+> - 1. What cryptocurrency is dominating in the market captalization?
 >
-> The cryptocurrency that dominates in the market captalization is Bitcoin
+> The cryptocurrency that dominates in the market captalization is **<font color=yellow>Bitcoin</font>**
