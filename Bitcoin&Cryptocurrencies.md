@@ -7,7 +7,7 @@
 >
 >That said, let's get to business. We tried to get an up-to-date dataset, but unfortunately, we only found a dataset up to the end of 2017, otherwise, we need to pay for the up-to-date dataset. We will start with a CSV we downloaded on the internet named coinmarketcap_06122017.csv.
 
-> #### We downloaded the dataset from "kaggle.com": [Click here](https://www.kaggle.com/datasets/kingabzpro/crypto)
+> #### We downloaded the dataset from "kaggle.com": [Click here](https://github.com/bpkaur/Exploring-the-Bitcoin-cryptocurrency-market/blob/master/datasets/coinmarketcap_06122017.csv)
 >
 > #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/bitcoin_and_cryptocurrencies/)
 
