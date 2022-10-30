@@ -151,7 +151,7 @@
 >
 > `ax = (volatility_series[-10:].plot.bar(color='darkblue', ax=axes[1]))`
 >
-> #### Returning this for good practice, might use later
+> #### Returning this, might use later
 >
 > `return fig, ax`
 >
