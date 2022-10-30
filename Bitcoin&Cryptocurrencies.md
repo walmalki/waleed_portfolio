@@ -103,8 +103,7 @@
 > `ax.set_xlabel('')`
 >
 > <img src="images/pic-05.png" alt="pic-05" width="600"/>
->
-> 
+
 > 2. To answer the question **What is going on?! volatility in cryptocurrency.**, The cryptocurrencies market has been spectacularly volatile since the first exchange opened. Let's explore this volatility! We will begin by selecting and plotting the 24 hours and 7 days percentage change.
 >
 > #### Selecting the id, percent_change_24h and percent_change_7d columns
@@ -151,7 +150,7 @@
 >
 > `ax = (volatility_series[-10:].plot.bar(color='darkblue', ax=axes[1]))`
 >
-> #### Returning this for good practice, might use later
+> #### Returning this
 >
 > `return fig, ax`
 >
@@ -194,6 +193,14 @@
 
 > ### Final result
 >
-> - 1. What cryptocurrency is dominating in the market captalization?
+> 1. What cryptocurrency is dominat in the market capitalization?
 >
-> The cryptocurrency that dominates in the market captalization is **<font color=yellow>Bitcoin</font>**
+> The cryptocurrency that dominates in the market capitalization is **<font color=yellow>Bitcoin</font>** despite it is under serious competition from other projects, but it is still dominant in market capitalization.
+>
+> 2. What is going on?! volatility in cryptocurrency.
+>
+> The cryptocurrencies market has been spectacularly volatile since the first exchange opened. The market of cryptocurrenies is fluctuating rapidly, and we can lose a lot of money quickly on cryptocurrencies. the reason is that for their small market capitalization, the Smaller cryptocurrencies are less stable projects in general.
+>
+> 3. Buying random coins, is it a right decision?
+>
+> Investing in a random coins is not a right decision, becuase as we mentioned in the previous answer to question 2, cryptocurrencies are not considered as stable projects in general, for this we might lose a lot of money if we aren't careful about choosing the right investments.
