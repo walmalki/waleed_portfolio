@@ -9,7 +9,7 @@
 
 > #### We downloaded the dataset from "kaggle.com": [Click here](https://github.com/bpkaur/Exploring-the-Bitcoin-cryptocurrency-market/blob/master/datasets/coinmarketcap_06122017.csv)
 >
-> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/bitcoin_and_cryptocurrencies/)
+> #### We have exploded the dataset by using Pandas-Profiling and investigated, cleaned, and manipulated the data: [Click here](https://walmalki.github.io/bitcoin_and_cryptocurrencies_exploratory/)
 
 > ## Discovering & Cleaning the Data
 >
@@ -195,7 +195,7 @@
 >
 > 1. What cryptocurrency is dominat in the market capitalization?
 >
-> The cryptocurrency that dominates in the market capitalization is **<font color=yellow>Bitcoin</font>** despite it is under serious competition from other projects, but it is still dominant in market capitalization.
+> The cryptocurrency that dominates in the market capitalization is **<font color=red>Bitcoin</font>** despite it is under serious competition from other projects, but it is still dominant in market capitalization.
 >
 > 2. What is going on?! volatility in cryptocurrency.
 >
