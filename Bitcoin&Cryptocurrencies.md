@@ -195,7 +195,7 @@
 >
 > 1. What cryptocurrency is dominat in the market capitalization?
 >
-> The cryptocurrency that dominates in the market capitalization is **<font color=yellow>Bitcoin</font>** despite it is under serious competition from other projects, but it is still dominant in market capitalization.
+> The cryptocurrency that dominates in the market capitalization is **<font color=red>Bitcoin</font>** despite it is under serious competition from other projects, but it is still dominant in market capitalization.
 >
 > 2. What is going on?! volatility in cryptocurrency.
 >
