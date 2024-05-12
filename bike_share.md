@@ -17,7 +17,9 @@
 > 
 > <img src="images/sql_01.png" alt="bs-01" width="600"/>
 >
+> ## Results
 > Our database as shown in the screenshot below:
 > 
 > <img src="images/sql_02.png" alt="bs-01" width="600"/>
+>
 >
