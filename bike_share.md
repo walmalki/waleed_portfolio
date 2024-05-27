@@ -31,3 +31,30 @@
 > Loading the dataset into MS Power BI
 ><img src="images/sql_05.png" alt="sql-02" width="600"/>
 >
+
+># Power BI dashboard:
+>
+><img src="images/pb_01.png" alt="sql-02" width="600"/>
+>
+
+
+
+## Recommendations
+### Conservative Increase:
+Considering the substantial increase last year, a more conservative increase might be prudent to avoid hitting a price ceiling where demand starts to drop. An increase in the range of 10-15% could test the market's response without risking a significant loss of customers.
+
+### Price setting:
+- If the price in 2022 was $4.99, a 10% increase would make the new price about $5.49.
+- A 15% increase would set the price at approximately %5.74.
+
+<img src="images/pb_02.png" alt="sql-02" width="600"/>
+
+### Recommended Strategy:
+#### - Market Analysis: 
+Conduct further market research to understand customer satisfaction, potential competitive changes, and the overall economic environment. This can quide whether leaning towards the lower or higher end of the suggested increase.
+
+#### - Segmented Pricing Strategy:
+Consider different pricing for casual versus registered users, as they may have different price sensitivties.
+
+#### - Monitor and Adjust:
+Implement the new prices but be ready to adjust based on immediate customer feedback and sales data. Monitoring closely will allow you to fine-tune your pricing strategy without committing fully to a price that might turn out to be too high.
