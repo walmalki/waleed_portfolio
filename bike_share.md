@@ -1,7 +1,7 @@
 > # Bike Share
 
- ## Content
-This project aims to analyze a dataset of a Bike Share compnay and help to understand if increasing prices next year is possible.
+> ## Content
+> This project aims to analyze a dataset of a Bike Share compnay and help to understand if increasing prices next year is possible.
 
 <img src="images/bs-01.jpeg" alt="bs-01" width="600"/>
 
@@ -24,18 +24,18 @@ This project aims to analyze a dataset of a Bike Share compnay and help to under
 > ## Connecting Microsoft Power BI to the dataset.
 > After we built our dataset, we connected it with Microsoft Power BI.
 >
-> <img src="images/sql_03.png" alt="sql-02" width="600"/>
+> <img src="images/sql_03.png" alt="sql-03" width="600"/>
 >
-> <img src="images/sql_04.png" alt="sql-02" width="600"/>
+> <img src="images/sql_04.png" alt="sql-04" width="600"/>
 >
 > Loading the dataset into MS Power BI
 >
-> <img src="images/sql_05.png" alt="sql-02" width="600"/>
+> <img src="images/sql_05.png" alt="sql-05" width="600"/>
 >
 
 ># Power BI dashboard:
 >
-> <img src="images/pb_01.png" alt="sql-02" width="600"/>
+> <img src="images/pb_01.png" alt="pb-01" width="600"/>
 
 
 > ## Recommendations
@@ -46,7 +46,7 @@ This project aims to analyze a dataset of a Bike Share compnay and help to under
 > - If the price in 2022 was $4.99, a 10% increase would make the new price about $5.49.
 > - A 15% increase would set the price at approximately %5.74.
 >
-> <img src="images/pb_02.png" alt="sql-02" width="600"/>
+> <img src="images/pb_02.png" alt="pb-02" width="600"/>
 >
 > ### Recommended Strategy:
 > #### - Market Analysis: 
