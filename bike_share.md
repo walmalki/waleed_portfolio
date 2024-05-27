@@ -24,7 +24,7 @@
 > ## Connecting Microsoft Power BI to the dataset.
 > After we built our dataset, we connected it with Microsoft Power BI.
 >
-> <img src="images/sql_03.png" alt="sql-03" width="600"/>
+> <img src="images/SQL_03.png" alt="SQL-03" width="600"/>
 >
 > <img src="images/sql_04.png" alt="sql-04" width="600"/>
 >
