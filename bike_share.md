@@ -1,7 +1,7 @@
 > # Bike Share
 
- ## Content
-This project aims to analyze a dataset of a Bike Share compnay and help to understand if increasing prices next year is possible.
+> ## Content
+> This project aims to analyze a dataset of a Bike Share compnay and help to understand if increasing prices next year is possible.
 
 <img src="images/bs-01.jpeg" alt="bs-01" width="600"/>
 
