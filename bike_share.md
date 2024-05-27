@@ -29,12 +29,13 @@ This project aims to analyze a dataset of a Bike Share compnay and help to under
 > <img src="images/sql_04.png" alt="sql-02" width="600"/>
 >
 > Loading the dataset into MS Power BI
-><img src="images/sql_05.png" alt="sql-02" width="600"/>
+>
+> <img src="images/sql_05.png" alt="sql-02" width="600"/>
 >
 
 ># Power BI dashboard:
 >
-><img src="images/pb_01.png" alt="sql-02" width="600"/>
+> <img src="images/pb_01.png" alt="sql-02" width="600"/>
 
 
 > ## Recommendations
